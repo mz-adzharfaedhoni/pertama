@@ -1,13 +1,13 @@
 <?php
 
-if ($jam_kerja>8){
-   echo "gaji lembur"
-}else{
-    echo "gaj umum"
+$jam_kerja = 9;
+
+if ($jam_kerja > 8) {
+  echo "akan mendapat gaji lembur";
+} else {
+  echo "tidak mendapat gaji lembur";
 }
 
 
 
-
 ?>
-
